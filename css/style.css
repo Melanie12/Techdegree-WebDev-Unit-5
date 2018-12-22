@@ -14,7 +14,7 @@ width:200%;
 .images{
 display:flex;
 flex-direction :column;
-justify-content:center;
+justify-content:center:
 align-content:space-between;
 }
 
