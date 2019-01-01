@@ -32,20 +32,28 @@ img {
 
 @media (min-width:1068px) {
 body {
-max-width:1068px;
+max-width:2000px;
 }
 
 img {
-    width: 100%;
+    min-width: 90%;
     height: auto;
+    margin: 1em;
 }
 
+.list {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1150px;
+  }
 
-.list{
+/*.list{
 justify-content: space-around;
 margin-left:auto;
 margin-right:auto; 
-}
+}*/
 
 .row-1 {
 display:flex;
